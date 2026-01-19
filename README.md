@@ -30,8 +30,8 @@ Mule will auto-deploy the application (hot deployment).
 
 Once deployed:
 
-- **Hello endpoint**: `curl http://localhost:8081/hello`
-- **Health check**: `curl http://localhost:8081/health`
+- **Hello endpoint**: `curl {http://localhost:8081}/hello`
+- **Health check**: `curl {http://localhost:8081}/health`
 
 The health endpoint returns JSON with runtime version and Java version to confirm your environment.
 
